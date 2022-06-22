@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Custom JS -->
+    <script src="app.js" defer></script>
+
+    <!-- Box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Mobile Homepage for Softly</title>
+  </head>
+  <body>
+    
+    <!-- Header section starts here -->
+    <header class="header">
+      <div class="free-shipping">
+        <p>Δωρεάν μεταφορικά με αγορές απο 39€ και ανω!</p>
+        <svg class="shippment-close " xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><defs></defs><path d="M14.77,13.956l4.944-4.97a.577.577,0,0,0,0-.849.57.57,0,0,0-.845,0l-4.944,4.97L8.956,8.162a.542.542,0,0,0-.82,0,.6.6,0,0,0,0,.849l4.944,4.945-4.944,4.97a.577.577,0,0,0,0,.849.647.647,0,0,0,.422.175.544.544,0,0,0,.422-.175l4.969-4.97,4.969,4.945a.769.769,0,0,0,.422.175.622.622,0,0,0,.422-.175.577.577,0,0,0,0-.849Z" transform="translate(-7.95 -7.95)"/></svg>
+      </div>
+
+            <!-- NAV MENU-ICONS -->
+              
+              <div class="menu-icons" id="menu-icons">
+                <div class="toggle-heart-btn" id="buttons">
+                  <div class="toggle-container">
+                    <!-- toggle Open -->
+                    <svg class="open-btn  " xmlns="http://www.w3.org/2000/svg" width="21.926" height="19" viewBox="0 0 21.926 19"><defs></defs><g transform="translate(-448 0.75)"><line class="a" x2="21.926" transform="translate(448)"/><line class="a" x2="21.926" transform="translate(448 8.506)"/><line class="a" x2="21.926" transform="translate(448 17.5)"/></g></svg>
+                    <!-- toggle Close -->
+                    <svg class="close-btn hidden " xmlns="http://www.w3.org/2000/svg" width="21.926" height="18" viewBox="0 0 14 14"><defs></defs><path d="M14.77,13.956l4.944-4.97a.577.577,0,0,0,0-.849.57.57,0,0,0-.845,0l-4.944,4.97L8.956,8.162a.542.542,0,0,0-.82,0,.6.6,0,0,0,0,.849l4.944,4.945-4.944,4.97a.577.577,0,0,0,0,.849.647.647,0,0,0,.422.175.544.544,0,0,0,.422-.175l4.969-4.97,4.969,4.945a.769.769,0,0,0,.422.175.622.622,0,0,0,.422-.175.577.577,0,0,0,0-.849Z" transform="translate(-7.95 -7.95)"/></svg>
+                  </div>
+                  
+                  <!-- HEART ICON SVG -->
+                    <div class="heart-container">
+                      <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 -0.9 19
+                       18"><defs></defs><path class="a" d="M16.226,1.534A4.739,4.739,0,0,0,12.7,0,4.434,4.434,0,0,0,9.932.956a5.666,5.666,0,0,0-1.12,1.169A5.663,5.663,0,0,0,7.692.956,4.433,4.433,0,0,0,4.923,0,4.739,4.739,0,0,0,1.4,1.534,5.509,5.509,0,0,0,0,5.3,6.56,6.56,0,0,0,1.748,9.591,37.273,37.273,0,0,0,6.124,13.7c.606.517,1.294,1.1,2.007,1.726a1.035,1.035,0,0,0,1.362,0c.714-.624,1.4-1.21,2.008-1.727A37.256,37.256,0,0,0,15.876,9.59,6.559,6.559,0,0,0,17.624,5.3,5.508,5.508,0,0,0,16.226,1.534Zm0,0"/></svg>
+                       <span class="heart-num">3</span>
+                    </div>
+                  
+                </div>
+                <!-- LOGO ICON SVG -->
+                <svg id="logo" width="164" height="39" viewBox="0 0 164 39"><defs><style>#logo{font-size:30px;font-family:Roboto-Bold, Roboto;font-weight:700;}</style></defs><text><tspan x="0" y="31">LOGO HERE</tspan></text></svg>
+      
+                <div class="search-shop-container">
+                  <div class="search">
+                    <!-- SEARCH ICON SVG -->
+                    <svg id="search-btn" xmlns="http://www.w3.org/2000/svg" width="16.459" height="17.02" viewBox="0 0 16.459 17.02"><defs><style>.a,.c{fill:none;}.a{stroke:#000;stroke-linecap:round;stroke-width:1.5px;}.b{stroke:none;}</style></defs><g class="a"><circle class="b" cx="6.457" cy="6.457" r="6.457"/><circle class="c" cx="6.457" cy="6.457" r="5.707"/></g><line class="a" x2="4.967" y2="4.967" transform="translate(10.432 10.992)"/></svg>
+        
+                  </div>
+                  <div class="shop">
+                    <!-- Shop ICON SVG -->
+                    <svg  id="shop-btn" class="shop-btn" xmlns="http://www.w3.org/2000/svg" width="15.3" height="18.133" viewBox="0 0 15.3 18.133"><path d="M54.592,4.25H52.434a4.817,4.817,0,0,0-9.567,0H40.708A.708.708,0,0,0,40,4.958V17.425a.708.708,0,0,0,.708.708H54.592a.708.708,0,0,0,.708-.708V4.958A.708.708,0,0,0,54.592,4.25ZM47.65,1.417A3.405,3.405,0,0,1,51,4.25H44.3A3.405,3.405,0,0,1,47.65,1.417Zm6.234,15.3H41.417V5.667h1.417V7.792a.708.708,0,0,0,1.417,0V5.667h6.8V7.792a.708.708,0,0,0,1.417,0V5.667h1.417Z" transform="translate(-40 0)"/></svg>
+                    <span class="shop-num">2</span>
+                  </div>
+                </div>      
+              </div>
+                    
+
+      <!-- NAV -->
+      <nav class="navbar   ">
+        <div class="gender">
+          <div class="gender-container">
+            
+              <a href="#">ΓΥΝΑΙΚΑ</a>
+              <a href="#">ΑΝΔΡΑΣ</a>
+              <a href="#">ΠΑΙΔΙ</a>
+              <a href="#">BRANDS</a>
+              <a href="#">ΓΥΝΑΙΚΑ</a>
+              
+            
+          </div>
+        </div>
+        <!-- NAV-CATEGORIES -->
+        <div class="categories nav-section-pad  ">
+          <div class="categories-container ">
+            <div class="clothes">
+              <a href="#clothes" class="clothes side-categories-font">ΡΟΥΧΑ</a>
+              <svg
+                width="24"
+                height="24"
+                style="fill: rgba(0, 0, 0, 1)">
+                <path
+                  d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"
+                </path>
+              </svg>
+            </div>
+            <div class="shoes">
+              <a href="#" class="shoes side-categories-font" >ΠΑΠΟΥΤΣΙΑ</a>
+              <svg
+                width="24"
+                height="24"
+                style="fill: rgba(0, 0, 0, 1)">
+                <path
+                  d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"
+                </path>
+              </svg>
+            </div>
+            <div class="accessories">
+              <a href="#" class="accessories side-categories-font" >ΑΞΕΣΟΥΑΡ</a>
+              <svg
+                width="24"
+                height="24"
+                style="fill: rgba(0, 0, 0, 1)">
+                <path
+                  d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"
+                </path>
+              </svg>
+            </div>
+            <div class="beauty">
+              <a href="#" class="beauty side-categories-font" >ΟΜΟΡΦΙΑ</a>
+              <svg
+                width="24"
+                height="24"
+                style="fill: rgba(0, 0, 0, 1)">
+                <path
+                  d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"
+                </path>
+              </svg>
+            </div>
+            <div class="brands">
+              <a href="#" class="brands side-categories-font" >ΔΗΜΟΦΙΛΕΙΣ ΜΑΡΚΕΣ</a>
+              <svg
+                width="24"
+                height="24"
+                style="fill: rgba(0, 0, 0, 1)">
+                <path
+                  d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"
+                </path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- NAV-SHORTCUTS -->
+        <div class="shortcut nav-section-pad ">
+          <div class="shortcut-container ">
+            <ul class="shortcut-links">
+              <a href="" class="side-shortcuts-font">
+                <li>ΝΕΕΣ ΑΦΙΞΕΙΣ</li>
+              </a>
+              <a href="" class="side-shortcuts-font">
+                <li>BEACHWARE</li>
+              </a>
+              <a href="" class="side-shortcuts-font">
+                <li>ΑΠΑΡΑΙΤΗΤΑ ΓΙΑ ΤΗ ΔΟΥΛΕΙΑ</li>
+              </a>
+              <a href="" class="side-shortcuts-font">
+                <li>ΓΥΝΑΙΚΕΙΑ ΣΕΤ</li>
+              </a>
+              <a href="" class="side-shortcuts-font">
+                <li>ΤΕΛΕΥΤΑΙΑ ΕΥΚΑΙΡΙΑ</li>
+              </a>
+              <a href="" class="side-shortcuts-font">
+                <li class="shortcut-last-item">FAQ</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <!-- NAV-ACCOUNTS -->
+        <div class="account nav-section-pad account-margin-btm ">
+          <div class="account-details-container  ">
+            <div class="sign-in sign-up">
+              <svg xmlns="http://www.w3.org/2000/svg" width="11.729" height="11.729" viewBox="0 0 11.729 11.729"><path d="M10.011,7.582a5.842,5.842,0,0,0-2.228-1.4,3.39,3.39,0,1,0-3.836,0A5.874,5.874,0,0,0,0,11.729H.916a4.948,4.948,0,0,1,9.9,0h.916A5.826,5.826,0,0,0,10.011,7.582ZM5.864,5.864A2.474,2.474,0,1,1,8.338,3.39,2.477,2.477,0,0,1,5.864,5.864Z" transform="translate(0)"/></svg>
+              <a href="#" class="side-account-font">Σύνδεση / Δημιουργία λογαριασμού</a>
+            </div>
+            <div class="orders">
+              <svg xmlns="http://www.w3.org/2000/svg" width="13.954" height="15.044" viewBox="0 0 13.954 15.044"><path d="M601.323,558.4v0c0-.006,0-.013,0-.019v-.007c0-.006,0-.012,0-.018v-.005c0-.007,0-.015,0-.022l0-.005c0-.007,0-.014-.007-.021h0l-.009-.021,0-.005-.011-.019,0,0-.01-.015,0-.005-.014-.016-.005-.005-.012-.012,0,0-.017-.013-.006,0,0,0-.015-.009,0,0-.02-.01h0l-6.707-2.969a.27.27,0,0,0-.219,0l-6.707,2.969h0l-.02.01h0l-.015.009,0,0-.006,0-.017.013,0,0-.012.012-.005.006-.014.016,0,.005-.011.015,0,0-.011.019,0,.005-.009.021h0c0,.007,0,.014-.007.021v.005c0,.007,0,.014-.005.022v0c0,.006,0,.012,0,.018v.007c0,.006,0,.013,0,.019v0h0v8.581a.271.271,0,0,0,.162.248l6.707,2.947h0l.019.007.006,0,.024.006h0l.021,0h.063l.021,0h0l.024-.006.006,0,.019-.007h0l6.707-2.947a.271.271,0,0,0,.162-.248V558.4Zm-6.977-2.677,6.024,2.667-1.481.623-5.974-2.655Zm0,5.2-6.024-2.532,1.584-.7,6.019,2.57Zm-2.1-4.269L598.2,559.3l-1.585.666-6.036-2.577Zm4.642,3.787,1.758-.739v3.114l-.842-.354a.271.271,0,0,0-.331.1l-.585.889Zm-8.979-1.637,6.165,2.592v8.12l-6.165-2.71Zm12.872,8-6.165,2.71V561.4l1.731-.728v3.688a.271.271,0,0,0,.5.149l.958-1.457,1.01.425a.271.271,0,0,0,.375-.249v-3.749l1.595-.67Z" transform="translate(-587.369 -555.158)"/></svg>
+              <a href="#" class="side-account-font">Οι παραγγελίες μου</a>
+            </div>
+            <div class="favourites ">
+              <svg class="heart" width="17.624" height="15.68" viewBox="-0.5 -0.9 20 20"><defs><style> </style></defs><path  d="M16.226,1.534A4.739,4.739,0,0,0,12.7,0,4.434,4.434,0,0,0,9.932.956a5.666,5.666,0,0,0-1.12,1.169A5.663,5.663,0,0,0,7.692.956,4.433,4.433,0,0,0,4.923,0,4.739,4.739,0,0,0,1.4,1.534,5.509,5.509,0,0,0,0,5.3,6.56,6.56,0,0,0,1.748,9.591,37.273,37.273,0,0,0,6.124,13.7c.606.517,1.294,1.1,2.007,1.726a1.035,1.035,0,0,0,1.362,0c.714-.624,1.4-1.21,2.008-1.727A37.256,37.256,0,0,0,15.876,9.59,6.559,6.559,0,0,0,17.624,5.3,5.508,5.508,0,0,0,16.226,1.534Zm0,0"/></svg>
+              <a href="#" class="side-account-font  ">Αγαπημένα</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- Search Form -->
+      <div class="search-form ">       
+        
+        <input class="search-form-input" type="text" placeholder="Αναζήτηση" id="search-form-input">
+
+        <div class="search-btn-container">
+          <svg id="search-btn" xmlns="http://www.w3.org/2000/svg" width="16.459" height="17.02" viewBox="0 0 16.459 17.02"><defs><style>.a,.c{fill:none;}.a{stroke:#000;stroke-linecap:round;stroke-width:1.5px;}.b{stroke:none;}</style></defs><g class="a"><circle class="b" cx="6.457" cy="6.457" r="6.457"/><circle class="c" cx="6.457" cy="6.457" r="5.707"/></g><line class="a" x2="4.967" y2="4.967" transform="translate(10.432 10.992)"/></svg>
+        </div>
+        
+      </div>
+      
+      <!-- SUB-Menu ========================================= -->  
+      
+        <div class="sub-menu-container">
+          <div class="sub-menu-clothes-category">
+            <div class="sub-menu-clothes-category-title container-sm ">
+              <svg class="back-icon" width="24" height="24" style="fill: rgba(0, 0, 0, 1)"><path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"></path></svg>
+              <h4 class="sub-menu-clothes-title ">ΡΟΥΧΑ</h4>
+            </div>
+            <div class="sub-menu-clothes-category-details container-xl">
+              <ul class="sub-menu-clothes-list sub-menu-container-xl">
+                <a href="#" class="sub-menu-clothes-list-link">
+                  <li class="sub-menu-clothes-list-item">ΟΛΑ ΤΑ ΡΟΥΧΑ</li>
+                </a>
+                <a href="#clothes" class="sub-menu-clothes-list-link">
+                  <li class="sub-menu-clothes-list-item">ΜΠΛΟΥΖΕΣ</li>
+                </a>
+                <a href="#" class="sub-menu-clothes-list-link">
+                  <li class="sub-menu-clothes-list-item">ΠΟΥΚΑΜΙΣΑ</li>
+                </a>
+                <a href="#" class="sub-menu-clothes-list-link">
+                  <li class="sub-menu-clothes-list-item">ΠΑΝΤΕΛΟΝΙΑ</li>
+                </a>
+                <a href="#" class="sub-menu-clothes-list-link">
+                  <li class="sub-menu-clothes-list-item">ΖΑΚΕΤΕΣ</li>
+                </a>
+                <a href="#" class="sub-menu-clothes-list-link">
+                  <li class="sub-menu-clothes-list-item">ΠΟΥΛΟΒΕΡ</li>
+                </a>
+                <a href="#" class="sub-menu-clothes-list-link">
+                  <li class="sub-menu-clothes-list-item">ΦΟΡΕΜΑΤΑ</li>
+                </a>
+                <a href="#" class="sub-menu-clothes-list-link">
+                  <li class="sub-menu-clothes-list-item">ΦΟΥΣΤΕΣ</li>
+                </a>
+                <a href="#" class="sub-menu-clothes-list-link">
+                  <li class="sub-menu-clothes-list-item">ΒΕΡΜΟΥΔΕΣ ΚΑΙ ΣΟΡΤΣ</li>
+                </a>
+                <a href="#" class="sub-menu-clothes-list-link">
+                  <li class="sub-menu-clothes-list-item">ΚΟΛΑΝ</li>
+                </a>
+                <a href="#" class="sub-menu-clothes-list-link">
+                  <li class="sub-menu-clothes-list-item">ΦΟΡΜΕΣ ΚΑΙ ΑΘΛΗΤΙΚΑ</li>
+                </a>
+                <a href="#" class="sub-menu-clothes-list-link">
+                  <li class="sub-menu-clothes-list-item">ΜΠΟΥΦΑΝ ΚΑΙ ΠΑΛΤΟ</li>
+                </a>
+                <a href="#" class="sub-menu-clothes-list-link">
+                  <li class="sub-menu-clothes-list-item">ΜΑΓΙΩ ΚΑΙ ΠΑΡΑΛΙΑ</li>
+                </a>
+                <a href="#" class="sub-menu-clothes-list-link">
+                  <li class="sub-menu-clothes-list-item">ΕΣΩΡΟΥΧΑ</li>
+                </a>
+              </ul>
+
+            </div>
+          </div>
+        </div>         
+   
+
+    </header>
+    <!-- Header section ends here -->
+
+    <!-- Hero section starts here -->
+    
+    <div class="hero" id="hero">
+      <div class="hero-wrapper">
+        <div class="hero-image-one">
+          <img src="images/man@2x.png" alt="man one">
+          <div class="hero-image-one-details">
+            <h1 class="title-hero-lg">ΑΡΩΜΑΤΙΚΑ ΧΩΡΟΥ</h1>
+            <button class="btn-hero-lg btn-font-lg">Ανακαλύψτε περισσότερα</button>
+          </div>
+        </div>
+
+        <div class="hero-image-two">
+          <img src="images/kids@2x.png" alt="kids">
+          <div class="hero-image-two-details align-details">
+            <h1 class="title-hero-sm">ΗΛΕΚΤΡΙΚΟΙ ΑΡΩΜΑΤΙΣΤΕΣ</h1>
+            <button class="btn-underline btn-font-md">Ανακαλύψτε περισσότερα</button>
+          </div>
+        </div>
+
+        <div class="hero-image-three">
+          <img src="images/man2.png" alt="kids">
+          <div class="hero-image-three-details align-details">
+            <h1 class="title-hero-sm">ΗΛΕΚΤΡΙΚΟΙ ΑΡΩΜΑΤΙΣΤΕΣ</h1>
+            <button class="btn-underline btn-font-md">Ανακαλύψτε περισσότερα</button>
+          </div>
+        </div>
+
+        
+        <div class="hero-image-four">
+          <img src="images/man@2x.png" alt="kids">
+          <div class="hero-image-four-details align-details">
+            <h1 class="title-hero-sm">ΗΛΕΚΤΡΙΚΟΙ ΑΡΩΜΑΤΙΣΤΕΣ</h1>
+            <button class="btn-underline btn-font-md">Ανακαλύψτε περισσότερα</button>
+          </div>
+        </div>           
+
+      </div>
+    </div>
+    <!-- Hero section ends here -->
+
+
+    <!-- New Trends starts here -->
+
+    <div class="section-new-trends border-l-r " id="section-new-trends">
+
+      <div class="new-trends-wrapper">
+        <div class="title-section-container">
+          
+            <h2 class="title-section">ΟΙ ΝΕΕΣ ΤΑΣΕΙΣ ΑΥΤΗ ΤΗ ΣΤΙΓΜΗ</h2>
+          
+        </div>
+        <div class="new-trends-products-container">
+          
+          <div class="new-trends-products-details">
+            <img src="images/DSC_8824-600x600.png" alt="ΑΦΡΌΛΟΥΤΡΑ">
+            <div class="new-trends-products-title"><span>ΑΦΡΌΛΟΥΤΡΑ</span> </div>
+          </div>
+          <div class="new-trends-products-details">
+            <img src="images/DSC_8852-scaled.png" alt="ΚΡΈΜΕΣ ΣΏΜΑΤΟΣ">
+            <div class="new-trends-products-title"><span>ΚΡΈΜΕΣ ΣΏΜΑΤΟΣ</span> </div>
+          </div>
+          <div class="new-trends-products-details">
+            <img src="images/DSC_9774-600x600.png" alt="ΚΡΈΜΕΣ ΧΕΡΙΏΝ">
+            <div class="new-trends-products-title"><span>ΚΡΈΜΕΣ ΧΕΡΙΏΝ</span> </div>
+          </div>
+          <div class="new-trends-products-details">
+            <img src="images/DSC_8824-600x600.png" alt="ΚΡΕΜΟΣΆΠΟΥΝΑ">
+            <div class="new-trends-products-title"><span>ΚΡΕΜΟΣΆΠΟΥΝΑ</span> </div>
+          </div>
+          <div class="new-trends-products-details">
+            <img src="images/DSC_8852-scaled.png"alt="ΑΝΤΗΛΙΑΚΑ ΠΡΟΣΩΠΟΥ ΚΑΙ ΣΩΜΑΤΟΣ">
+            <div class="new-trends-products-title extend"><span>ΑΝΤΗΛΙΑΚΑ ΠΡΟΣΩΠΟΥ ΚΑΙ ΣΩΜΑΤΟΣ</span> </div>
+          </div>
+          <div class="new-trends-products-details">
+            <img src="images/DSC_9774-600x600.png" alt="ΛΑΔΙΑ ΣΩΜΑΤΟΣ">
+            <div class="new-trends-products-title"><span>ΛΑΔΙΑ ΣΩΜΑΤΟΣ</span> </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- New Trends ends ehre -->
+
+    <!-- New Arrivals starts here -->
+
+    <section class="new-arrivals border-l-r " id="new-arrivals">
+
+      <div class="title-section-container">          
+        <h2 class="title-section">ΝΕΕΣ ΑΦΙΞΕΙΣ</h2>      
+      </div> 
+
+      <div class="new-arrivals-product-container">
+        <div class="new-arrivals-product-image">
+          <img src="images/DSC_8852-scaled.png" alt="new arrivals image">
+          <span class="new"><h6>NEW</h6></span>
+          <span class="heart-circle">
+            <div class="div">
+              <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 -0.9 19 18"><defs></defs><path class="a" d="M16.226,1.534A4.739,4.739,0,0,0,12.7,0,4.434,4.434,0,0,0,9.932.956a5.666,5.666,0,0,0-1.12,1.169A5.663,5.663,0,0,0,7.692.956,4.433,4.433,0,0,0,4.923,0,4.739,4.739,0,0,0,1.4,1.534,5.509,5.509,0,0,0,0,5.3,6.56,6.56,0,0,0,1.748,9.591,37.273,37.273,0,0,0,6.124,13.7c.606.517,1.294,1.1,2.007,1.726a1.035,1.035,0,0,0,1.362,0c.714-.624,1.4-1.21,2.008-1.727A37.256,37.256,0,0,0,15.876,9.59,6.559,6.559,0,0,0,17.624,5.3,5.508,5.508,0,0,0,16.226,1.534Zm0,0"/></svg>
+            </div>
+          </span>
+        </div>
+
+        <div class="new-arrivals-product-details">
+          <div class="new-arrivals-product-name">
+            <span>Grapefruit & Orange Sugar Scrub 550gr</span>
+          </div>
+
+          <div class="new-arrivals-product-price">
+            <span class="price">8,00 €</span>
+            <span class="sales">10,00 €</span>
+          </div>
+
+          <div class="new-arrivals-product-description">
+            <span class="description">Scrub σώματος</span>
+          </div>
+        </div>
+      </div>
+      <div class="new-arrivals-product-container">
+        <div class="new-arrivals-product-image">
+          <img src="images/DSC_8852-scaled.png" alt="new arrivals image">
+          <span class="new"><h6>NEW</h6></span>
+          <span class="heart-circle">
+            <div class="div">
+              <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 -0.9 19 18"><defs></defs><path class="a" d="M16.226,1.534A4.739,4.739,0,0,0,12.7,0,4.434,4.434,0,0,0,9.932.956a5.666,5.666,0,0,0-1.12,1.169A5.663,5.663,0,0,0,7.692.956,4.433,4.433,0,0,0,4.923,0,4.739,4.739,0,0,0,1.4,1.534,5.509,5.509,0,0,0,0,5.3,6.56,6.56,0,0,0,1.748,9.591,37.273,37.273,0,0,0,6.124,13.7c.606.517,1.294,1.1,2.007,1.726a1.035,1.035,0,0,0,1.362,0c.714-.624,1.4-1.21,2.008-1.727A37.256,37.256,0,0,0,15.876,9.59,6.559,6.559,0,0,0,17.624,5.3,5.508,5.508,0,0,0,16.226,1.534Zm0,0"/></svg>
+            </div>
+          </span>
+        </div>
+
+        <div class="new-arrivals-product-details">
+          <div class="new-arrivals-product-name">
+            <span>Grapefruit & Orange Sugar Scrub 550gr</span>
+          </div>
+
+          <div class="new-arrivals-product-price">
+            <span class="price">8,00 €</span>
+            <span class="sales">10,00 €</span>
+          </div>
+
+          <div class="new-arrivals-product-description">
+            <span class="description">Scrub σώματος</span>
+          </div>
+        </div>
+      </div>
+      <div class="new-arrivals-product-container">
+        <div class="new-arrivals-product-image">
+          <img src="images/DSC_8852-scaled.png" alt="new arrivals image">
+          <span class="new"><h6>NEW</h6></span>
+          <span class="heart-circle">
+            <div class="div">
+              <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 -0.9 19 18"><defs></defs><path class="a" d="M16.226,1.534A4.739,4.739,0,0,0,12.7,0,4.434,4.434,0,0,0,9.932.956a5.666,5.666,0,0,0-1.12,1.169A5.663,5.663,0,0,0,7.692.956,4.433,4.433,0,0,0,4.923,0,4.739,4.739,0,0,0,1.4,1.534,5.509,5.509,0,0,0,0,5.3,6.56,6.56,0,0,0,1.748,9.591,37.273,37.273,0,0,0,6.124,13.7c.606.517,1.294,1.1,2.007,1.726a1.035,1.035,0,0,0,1.362,0c.714-.624,1.4-1.21,2.008-1.727A37.256,37.256,0,0,0,15.876,9.59,6.559,6.559,0,0,0,17.624,5.3,5.508,5.508,0,0,0,16.226,1.534Zm0,0"/></svg>
+            </div>
+          </span>
+        </div>
+
+        <div class="new-arrivals-product-details">
+          <div class="new-arrivals-product-name">
+            <span>Grapefruit & Orange Sugar Scrub 550gr</span>
+          </div>
+
+          <div class="new-arrivals-product-price">
+            <span class="price">8,00 €</span>
+            <span class="sales">10,00 €</span>
+          </div>
+
+          <div class="new-arrivals-product-description">
+            <span class="description">Scrub σώματος</span>
+          </div>
+        </div>
+      </div>
+      <div class="new-arrivals-product-container">
+        <div class="new-arrivals-product-image">
+          <img src="images/DSC_8852-scaled.png" alt="new arrivals image">
+          <span class="new"><h6>NEW</h6></span>
+          <span class="heart-circle">
+            <div class="div">
+              <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 -0.9 19 18"><defs></defs><path class="a" d="M16.226,1.534A4.739,4.739,0,0,0,12.7,0,4.434,4.434,0,0,0,9.932.956a5.666,5.666,0,0,0-1.12,1.169A5.663,5.663,0,0,0,7.692.956,4.433,4.433,0,0,0,4.923,0,4.739,4.739,0,0,0,1.4,1.534,5.509,5.509,0,0,0,0,5.3,6.56,6.56,0,0,0,1.748,9.591,37.273,37.273,0,0,0,6.124,13.7c.606.517,1.294,1.1,2.007,1.726a1.035,1.035,0,0,0,1.362,0c.714-.624,1.4-1.21,2.008-1.727A37.256,37.256,0,0,0,15.876,9.59,6.559,6.559,0,0,0,17.624,5.3,5.508,5.508,0,0,0,16.226,1.534Zm0,0"/></svg>
+            </div>
+          </span>
+        </div>
+
+        <div class="new-arrivals-product-details">
+          <div class="new-arrivals-product-name">
+            <span>Grapefruit & Orange Sugar Scrub 550gr</span>
+          </div>
+
+          <div class="new-arrivals-product-price">
+            <span class="price">8,00 €</span>
+            <span class="sales">10,00 €</span>
+          </div>
+
+          <div class="new-arrivals-product-description">
+            <span class="description">Scrub σώματος</span>
+          </div>
+        </div>
+      </div>
+    
+    
+    </section>
+
+    <!-- New Arrivals ends here -->
+
+  </body>
+</html>
